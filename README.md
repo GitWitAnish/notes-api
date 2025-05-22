@@ -46,8 +46,8 @@ simple-notes-api/
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/simple-notes-api.git
-   cd simple-notes-api
+   git clone https://github.com/GitWitAnish/notes-api.git
+   cd notes-api
    ```
 
 2. **Install dependencies**

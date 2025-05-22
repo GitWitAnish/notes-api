@@ -60,7 +60,7 @@ simple-notes-api/
    Create a `.env` file in the root directory:
 
    ```env
-   PORT=3000
+   PORT=4000
    DB_USER=your_db_username
    DB_HOST=localhost
    DB_DATABASE=notesdb
@@ -87,7 +87,7 @@ simple-notes-api/
    node server.js
    ```
 
-   The server will start at `http://localhost:3000`.
+   The server will start at `http://localhost:4000`.
 
 ---
 
@@ -110,7 +110,7 @@ All endpoints are prefixed with `/api/notes`
 You can use tools like **curl**, **Postman**, or **Insomnia** to test the endpoints. Example:
 
 ```bash
-curl -X POST http://localhost:3000/api/notes \
+curl -X POST http://localhost:4000/api/notes \
   -H "Content-Type: application/json" \
   -d '{"title": "Sample", "content": "Hello world"}'
 ```
@@ -129,7 +129,7 @@ curl -X POST http://localhost:3000/api/notes \
 
 ## 👨‍💻 Authors
 
-- Built with ❤️ by Anish Karki & team
+- Built by Anish Karki
 
 ---
 
